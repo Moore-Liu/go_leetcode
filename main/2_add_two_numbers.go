@@ -24,7 +24,6 @@ import "fmt"
 // 0 <= Node.val <= 9
 // 题目数据保证列表表示的数字不含前导零
 
-//leetcode submit region begin(Prohibit modification and deletion)
 type ListNode struct {
 	Val  int
 	Next *ListNode
@@ -63,5 +62,3 @@ func main() {
 	lNode := addTwoNumbers(l1, l2)
 	fmt.Println("result:", lNode.Val, lNode.Next.Val, lNode.Next.Next.Val)
 }
-
-//leetcode submit region end(Prohibit modification and deletion)

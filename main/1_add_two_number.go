@@ -41,13 +41,7 @@ import "fmt"
 // -109 <= nums[i] <= 109
 // -109 <= target <= 109
 // 只会存在一个有效答案
-//
-//
-// 进阶：你可以想出一个时间复杂度小于 O(n2) 的算法吗？
-// Related Topics 数组 哈希表
-// 👍 11236 👎 0
 
-//leetcode submit region begin(Prohibit modification and deletion)
 func twoSum(nums []int, target int) []int {
 	tmp := make(map[int]int)
 	for i := 0; i < len(nums); i++ {
@@ -58,8 +52,6 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-
-//leetcode submit region end(Prohibit modification and deletion)
 
 func main() {
 	nums := []int{2, 7, 11, 15}
